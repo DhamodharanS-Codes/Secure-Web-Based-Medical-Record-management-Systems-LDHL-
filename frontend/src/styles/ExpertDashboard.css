@@ -1,0 +1,72 @@
+/* Expert isolated layout */
+
+.expert-dashboard-container {
+  display: flex;
+  min-height: 100vh;
+  background: url("../assets/images/doctor-medical-bg2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.expert-sidebar {
+  width: 250px;
+  padding: 25px;
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+}
+
+.expert-sidebar h2 {
+  margin-bottom: 25px;
+}
+
+.expert-sidebar button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.expert-logout-btn {
+  background: #ff5e5e;
+  color: white;
+}
+
+.expert-main-content {
+  flex: 1;
+  padding: 40px;
+}
+
+.expert-card {
+  background: rgba(255,255,255,0.95);
+  padding: 30px;
+  border-radius: 12px;
+}
+.expert-request-item {
+  background: #f9fbff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border-left: 5px solid #1890ff;
+}
+
+.approve-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 6px 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reject-btn {
+  background-color: #dc3545;
+  color: white;
+  padding: 6px 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

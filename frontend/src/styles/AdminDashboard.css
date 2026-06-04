@@ -1,0 +1,193 @@
+/* =========================
+   ADMIN DASHBOARD CONTAINER
+========================= */
+/* =========================
+   ADMIN LAYOUT FIXED
+========================= */
+
+.admin-dashboard {
+  display: flex;
+  min-height: 100vh;
+
+  background:
+    linear-gradient(rgba(15,48,87,0.85), rgba(0,88,122,0.85)),
+    url("../assets/images/admin-corporate-bg.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Sidebar */
+.admin-sidebar {
+  width: 260px;
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 0.65);
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+/* =========================
+   SIDEBAR TITLE
+========================= */
+
+.admin-title {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+/* =========================
+   SIDEBAR LINKS
+========================= */
+
+.admin-link {
+  display: block;
+  padding: 12px 15px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  text-decoration: none;
+  background: rgba(255,255,255,0.08);
+  color: white;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+.admin-link:hover {
+  background: #00aaff;
+  transform: translateX(5px);
+}
+
+/* =========================
+   LOGOUT BUTTON
+========================= */
+
+.admin-logout {
+  margin-top: 10px;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background: #ff5e5e;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.admin-logout:hover {
+  background: #ff3c3c;
+}
+/* Content */
+.admin-content {
+  flex: 1;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+/* =========================
+   MAIN CONTENT
+========================= */
+
+.admin-content {
+  flex: 1;
+  padding: 40px;
+  overflow-y: auto;
+}
+
+/* =========================
+   CORPORATE CARD
+========================= */
+
+.admin-card {
+  width: 100%;
+  max-width: 900px;
+  background: rgba(255,255,255,0.92);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+/* Make content text dark inside cards */
+.admin-card {
+  color: #1a1a1a;
+}
+
+.admin-card h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* =========================
+   AUDIT TABLE
+========================= */
+
+.audit-table-container {
+  max-height: 450px;
+  overflow-y: auto;
+  border-radius: 14px;
+}
+
+.audit-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.audit-table th,
+.audit-table td {
+  padding: 15px 18px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.audit-table th {
+  background: linear-gradient(90deg, #0072ff, #00aaff);
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.audit-table tr {
+  border-bottom: 1px solid rgba(255,255,255,0.15);
+  transition: 0.25s ease;
+}
+
+.audit-table tr:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+.audit-table td {
+  color: #1a1a1a;
+  font-weight: 500;
+}
+
+/* =========================
+   SCROLLBAR STYLING
+========================= */
+
+.audit-table-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.audit-table-container::-webkit-scrollbar-thumb {
+  background: #00aaff;
+  border-radius: 10px;
+}
+
+.audit-table-container::-webkit-scrollbar-track {
+  background: rgba(255,255,255,0.1);
+}
+.admin-content h3,
+.admin-content p,
+.admin-content label,
+.admin-content span {
+  color: #1a1a1a;
+}

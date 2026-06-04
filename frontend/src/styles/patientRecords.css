@@ -1,0 +1,84 @@
+.patient-layout {
+  padding: 30px;
+  background-color: #f4f6f9;
+  min-height: 100vh;
+}
+
+.patient-title {
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.patient-upload-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.patient-upload-card input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+}
+
+.patient-upload-card button {
+  padding: 8px 15px;
+  background-color: #3498db;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.patient-upload-card button:hover {
+  background-color: #2980b9;
+}
+
+.upload-message {
+  margin-top: 10px;
+}
+
+.patient-filter-section {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.patient-filter-section input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.patient-record-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.patient-record-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+.patient-record-card h4 {
+  margin-bottom: 8px;
+}
+
+.patient-record-card a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.patient-record-card a:hover {
+  text-decoration: underline;
+}
+
+.no-records {
+  color: #777;
+}
